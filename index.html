@@ -31,12 +31,93 @@
   <body>
     <div class="container">
       <header>
-        <h1>Epicodus Project Template</h1>
+        <h1>Political Survey</h1>
       </header>
-      <h2>Hello World!</h2>
+      <h2>Determine you the political party that best aligns with your beliefs</h2>
       <p>
-        This is a nice little index file.  It calls in five different files to support Bootstrap, JQuery, and your custom css and js.
+        Fill out the fields below and we'll tell you how conservative or liberal your beliefs are and what party best aligns with you.
       </p>
+      <form id="political-survey">
+        <div class="radio">
+          <p>
+            <strong>Should the government increase environmental regulations to prevent global warming?</strong>
+          </p>
+          <label>
+            <input type="radio" name="global-warming" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="global-warming" value="0">
+            No
+          </label>
+        </div>
+
+        <div class="radio">
+          <p>
+            <strong>Should there be more restrictions on the current process of purchasing a gun?</strong>
+          </p>
+          <label>
+            <input type="radio" name="gun-check" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gun-check" value="0">
+            No
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>Do you support the legalization of Marijuana?</strong>
+          </p>
+          <label>
+            <input type="radio" name="marijuana" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="marijuana" value="0">
+            No
+          </label>
+        </div>
+        <div class="radio">
+          <p>
+            <strong>Should the government decrease military spending?</strong>
+          </p>
+          <label>
+            <input type="radio" name="military" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="military" value="0">
+            No
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div class="output">
+        <div id ="blue">
+          <p>
+            You are really blue
+          </p>
+        </div>
+        <div id ="red">
+          <p>
+            You are really red
+          </p>
+        </div>
+        <div id ="middle">
+          <p>
+            You are right in the middle
+          </p>
+        </div>
+      </div>
       <footer>
         <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
       </footer>
