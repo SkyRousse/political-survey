@@ -1,4 +1,4 @@
-# Cooking App
+# Political Survey
 
 #### By _**Sky Rousse, Kevin Avery**_
 
