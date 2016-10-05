@@ -4,7 +4,7 @@
 
 ## Description
 
-__Practice js calculations of units of measure as well as seperation of business logic and user interface logic__
+__Practice seting up form to gather political prefs and using js to calculate a number that reveals political preference__
 
 ## Setup/Installation Requirements
 
