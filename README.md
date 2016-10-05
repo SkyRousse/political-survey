@@ -1,6 +1,6 @@
 # Political Survey
 
-#### By _**Sky Rousse, Kevin Avery**_
+#### By _**Sky Rousse, Kevin VanEvery**_
 
 ## Description
 
